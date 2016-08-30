@@ -20,7 +20,7 @@ function tsm_get_extended_valid_elements() {
 			'datetime',
 			'rel'
 		),
-		'div', 'dl', 'dt', 'dd', 'ul', 'li', 'span',
+		'div', 'dl', 'dt', 'dd', 'ul', 'li', 'span', 'img',
 		'a' => array(
 			'href',
 			'name',
