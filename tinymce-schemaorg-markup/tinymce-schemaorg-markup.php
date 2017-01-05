@@ -4,7 +4,7 @@ Plugin Name: Protect schema.org markup in HTML editor
 Description: Easy tool to stop HTML editor from removing schema.org/microdata tags from post or page content.
 Author: Ecwid Team
 Author URI: http://www.ecwid.com?source=tinymce-schemaorg-markup
-Version: 0.1
+Version: 0.3
 */
 
 function tsm_get_extended_valid_elements() {
@@ -20,7 +20,7 @@ function tsm_get_extended_valid_elements() {
 			'datetime',
 			'rel'
 		),
-		'div', 'dl', 'dt', 'dd', 'ul', 'li', 'span', 'img',
+		'article', 'div', 'p', 'dl', 'dt', 'dd', 'ul', 'li', 'span', 'img',
 		'a' => array(
 			'href',
 			'name',
