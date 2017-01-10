@@ -20,7 +20,7 @@ function tsm_get_extended_valid_elements() {
 			'datetime',
 			'rel'
 		),
-		'article', 'div', 'p', 'dl', 'dt', 'dd', 'ul', 'li', 'span', 'img',
+		'article', 'div', 'p', 'dl', 'dt', 'dd', 'ul', 'li', 'span',
 		'a' => array(
 			'href',
 			'name',
@@ -35,6 +35,12 @@ function tsm_get_extended_valid_elements() {
 			'onfocus',
 			'onblur'
 		),
+                'img' => array(
+                        'src',
+                        'alt',
+                        'width',
+                        'height'
+                ),
 		'meta' => array(
 			'content'
 		),
@@ -81,6 +87,9 @@ function tsm_tinymce_init( $settings )
 	}
 
 	$settings['extended_valid_elements'] = $result;
+	if ( !isset($settings['valid_children'] ) ) {
+		$settings['valid_children'] = '';
+	}
 	$settings['valid_children'] .= '+body[meta],+div[meta],+body[link],+div[link]';
 
 	return $settings;
