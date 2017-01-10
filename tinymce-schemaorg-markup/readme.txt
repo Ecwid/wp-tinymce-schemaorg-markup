@@ -3,7 +3,7 @@ Contributors: Ecwid
 Tags: schema.org, microdata, rich snippets, tinymce, html editor
 Requires at least: 4.0
 Tested up to: 4.7
-Stable tag: 0.3
+Stable tag: 0.4
 
 Easy tool to stop HTML editor from removing schema.org/microdata tags from post or page content.
 
@@ -20,6 +20,9 @@ Just install the plugin as usually and activate it. Once activated, it will keep
 @azaozz suggested the solution. See the issue discussion here: https://core.trac.wordpress.org/ticket/27931
 
 == Changelog ==
+
+= 0.4 =
+Fixed src attrbiute being removed from img tag.
 
 = 0.3 =
 Fixed schema.org attributes being removed from article and p tags.
