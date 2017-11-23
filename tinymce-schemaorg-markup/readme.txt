@@ -2,7 +2,7 @@
 Contributors: Ecwid
 Tags: schema.org, microdata, rich snippets, tinymce, html editor
 Requires at least: 4.0
-Tested up to: 4.7
+Tested up to: 4.9
 Stable tag: 0.4
 
 Easy tool to stop HTML editor from removing schema.org/microdata tags from post or page content.
